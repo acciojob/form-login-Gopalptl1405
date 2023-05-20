@@ -1,5 +1,6 @@
 function getFormvalue() {
     //Write your code here
-    let formref = getElementById("form1");
-	alert("formref.fname,formref.lname");
+    var fname = document.getElementById("fname").value;
+	var lname = document.getElementByid("lname").value;
+	aler(fname +" " + lname);
 }
